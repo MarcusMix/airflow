@@ -36,7 +36,7 @@ send_email = EmailOperator(task_id="send_email",
                            subject="Airflow error",
                            html_content=""" 
                                 <h3>Ocorreu um erro na DAG!</h3>
-                                <p>A DAG send_email ocorreu um erro na execução!</p>
+                                <p>A DAG task4 ocorreu um erro na execução!</p>
                            """,
                            dag=my_dag,
                            trigger_rule="one_failed")
