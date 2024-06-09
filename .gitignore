@@ -3,6 +3,7 @@
 *.user
 *.sln.docstates
 *.yaml
+docker-compose.yaml
 
 # Build results
 [Dd]ebug/
